@@ -1,0 +1,33 @@
+body { 
+        font-family: Arial, 
+        sans-serif; 
+        text-align: center; 
+}
+
+
+#quiz-container { 
+                max-width: 500px; 
+                margin: auto; padding: 20px; 
+                border: 1px solid #ccc; 
+                border-radius: 10px; 
+}
+
+.option {
+         display: block; 
+         margin: 10px 0; 
+         padding: 10px; 
+         background: #f4f4f4; 
+         cursor: pointer; 
+         -radius: 5px; 
+}
+
+.option:hover { 
+            background: #ddd; 
+}
+.correct { 
+        background: #8f8 !important; 
+}
+
+.incorrect {
+        background: #f88 !important; 
+}
